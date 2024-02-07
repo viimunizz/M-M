@@ -1,0 +1,113 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+.head {
+    background-color: #f3f6fa;
+    height: 100px;
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    border-bottom: solid rgb(90, 21, 19) 4px;
+}   
+
+.pesquisa{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+}
+
+.pesquisa input{
+    border-radius: 15px;
+    width: 200px;
+    background-color: #f3f6fa;
+}
+
+#lupa{
+    height: 35px;
+    background: url(lupa.png) no-repeat right / 1.3em;
+    padding-left: 1.3em;
+    background-color: #f3f6fa;
+}
+
+#brasil, #compras, #user{    
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+
+body{
+    background-color: #f3f6fa;
+}
+
+.corpo{
+    background-color: #ffd43e;
+    height: 87vb;
+    width: 100%;
+}
+
+.Logo_M{
+    position: absolute;
+    right: 45%;
+    top: 5%;
+}
+
+.direita{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.esquerda{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.slid1{
+    width: 900px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.slid2{
+    width: 400px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.slid3{
+    width: 700px;
+    border-radius: 150px;
+    background-color: #ffeba4;
+    padding: 30px;
+}
+
+.carousel{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    top: 120px;
+}
+
+.corpoProd {
+    background-color: #f3f6fa;
+    height: 87vb;
+}
+
+.produtos{
+    margin-top: 50px;
+    margin-left: 350px;
+}
+
+.contato{
+    padding: 100px;
+    padding-left: 500px;
+    padding-right: 500px;
+}
